@@ -5,7 +5,9 @@ import useStyles from './styles'
 const CartItem = () => {
   const classes = useStyles();
   return (
-    <div>CartItem</div>
+    <Card>
+        <CardMedia image={item.media}/>
+    </Card>
   )
 }
 
