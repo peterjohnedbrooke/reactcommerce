@@ -15,6 +15,7 @@ const Products = ({ products, onAddToCart }) => {
                     <Product product={product} onAddToCart={onAddToCart}/>
                 </Grid>
                 ))}
+                <div>test</div>
             </Grid>
         </main>
     )
